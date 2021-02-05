@@ -58,10 +58,10 @@ if(results[0].label == "angry"){
 if(results[1].label == "happy"){
     document.getElementById("update_emoji2").innerHTML = "&#128522;";
 }
-if(results[0].label == "sad"){
+if(results[1].label == "sad"){
     document.getElementById("update_emoji2").innerHTML = "&#128532;";
 }
-if(results[0].label == "angry"){
+if(results[1].label == "angry"){
     document.getElementById("update_emoji2").innerHTML = "&#128548;";
 }
 
